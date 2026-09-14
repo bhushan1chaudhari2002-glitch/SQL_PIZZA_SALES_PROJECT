@@ -78,6 +78,6 @@ SELECT order_month, monthly_sales,
        / LAG(monthly_sales) OVER (ORDER BY order_month)) * 100, 2) AS mom_growth_percentage
        
 FROM MonthlyRevenue;
-[EER Diagram]()
+[EER Diagram](pizza_EER_diagram.png)
 
 
